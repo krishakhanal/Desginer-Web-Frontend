@@ -1,0 +1,17 @@
+.heading {
+    color: white;
+    position: relative;
+    z-index: 2; 
+}
+
+.heading h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.heading p{
+    margin-top: 20px;
+}
+
+
+

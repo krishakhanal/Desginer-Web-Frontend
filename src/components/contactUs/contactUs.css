@@ -1,0 +1,160 @@
+.contact-section {
+  background-image: url('../images/page-banner-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.contact-customer {
+  color: white;
+  display: flex;
+  align-items: center;
+  align-items: left;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-section1, .contact-section2, .contact-section3 {
+  background: linear-gradient(135deg, #FF6F61 100%, #ffffff 0%);
+  height: 173px;
+  width: 320px;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.contact-image {
+  margin: 20px auto;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-middle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  max-width: 1100px;
+  gap: 50px;
+}
+
+.form-section {
+  flex: 2;
+  max-width: 700px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-row textarea {
+  flex: 1;
+}
+
+.card-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.content-text h1 {
+  font-size: 36px;
+  color: #FF6F61;
+  margin-bottom: 30px;
+}
+
+.input-field,
+.input-message {
+  padding: 18px 22px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.input-field:focus,
+.input-message:focus {
+  border-color: #FF6F61;
+}
+.input-message{
+  width: -300px;
+}
+
+.send-message-btn {
+  background-color: #FF6F61;
+  color: white;
+  padding: 18px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  width: 100%;
+  
+}
+
+.send-message-btn:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    height: auto;
+  }
+
+  .content-middle {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+    max-width: none;
+  }
+
+  .send-message-btn {
+    font-size: 18px;
+    width: auto;
+  }
+}
