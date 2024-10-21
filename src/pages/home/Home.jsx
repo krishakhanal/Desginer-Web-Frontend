@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import HeroSection from '../../components/heroSection/HeroSection';
 import SearchSection from '../../components/searchSection/SearchSection';
 
-import './home.css';
+
 import Explore from '../../components/explore/Explore';
 
 const Home = () => {
